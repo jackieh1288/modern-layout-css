@@ -1,0 +1,35 @@
+.ex1 {
+  width: 80%;
+  height: 200px;
+  border: 1px solid lightgray;
+  background-color: cadetblue;
+}
+
+.ex1 .parent {
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+.ex2 {
+  width: 80%;
+  /* height: 50%; */
+  box-shadow: 0 0 15px lightgray;
+  border-radius: 4px;
+}
+
+.ex2 .parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ex2 .box {
+  background-color: lightgreen;
+  flex: 1 1 150px; /* Stretching */
+  /* flex: 0 1 150px; /* No stretching */
+  margin: 5px;
+  display: grid;
+  place-items: center;
+  min-height: 100px;
+}
