@@ -1,25 +1,161 @@
 <head>
   <link rel="stylesheet" href="styles.css" />
 </head>
+<style type="text/css">
+  div {
+    font-weight: 560;
+    font-size: 20;
+  }
+
+  .gold {
+    background-color: gold;
+  }
+
+  .plum {
+    background-color: plum;
+  }
+
+  .cadetblue {
+    background-color: cadetblue;
+  }
+
+  .lightgreen {
+    background-color: lightgreen;
+  }
+
+  .coral {
+    background-color: coral;
+  }
+
+  .skyblue {
+    background-color: skyblue;
+  }
+
+  .pink {
+    background-color: pink;
+  }
+</style>
 <body>
-  <h1>Super Center:</h1>
-  <div class="ex1">
+  <h1>01. Super Center:</h1>
+  <div class="ex1 cadetblue">
     <div class="parent">
-      <h1 style="color: coral" contenteditable>:)</h1>
+      <h1 class="coral" contenteditable>:)</h1>
     </div>
   </div>
 
-  <h1>The Deconstructed Pancake:</h1>
+  <h1>02. The Deconstructed Pancake:</h1>
   <div class="ex2">
     <div class="parent">
-      <div class="box">
-        <h1>1</h1>
+      <div class="box lightgreen">
+        <div>1</div>
       </div>
-      <div class="box">
-        <h1>2</h1>
+      <div class="box lightgreen">
+        <div>2</div>
       </div>
-      <div class="box">
-        <h1>3</h1>
+      <div class="box lightgreen">
+        <div>3</div>
+      </div>
+    </div>
+  </div>
+
+  <h1>03. Sidebar Says:</h1>
+  <div class="ex3">
+    <div class="parent">
+      <div class="section gold" contenteditable>Min: 150px / Max: 16%</div>
+      <div class="section plum" contenteditable>
+        This element takes the second grid position (1fr), meaning it takes up
+        the rest of the remaining space.
+      </div>
+    </div>
+  </div>
+
+  <h1>04. Pancake Stack:</h1>
+  <div class="ex4">
+    <div class="parent">
+      <div class="section skyblue">Header</div>
+      <div class="section coral">Main</div>
+      <div class="section plum">Footer</div>
+    </div>
+  </div>
+
+  <h1>05. Classic Holy Grail Layout:</h1>
+  <div class="ex5">
+    <div class="parent">
+      <header class="section plum">Header</header>
+      <div class="section left-side skyblue">Left Sidebar</div>
+      <main class="section main coral">Main Content</main>
+      <div class="section right-side gold">Right Sidebar</div>
+      <footer class="section lightgreen">Footer</footer>
+    </div>
+  </div>
+
+  <h1>06. 12-Span Grid</h1>
+  <div class="ex6">
+    <div class="parent">
+      <div class="section lightgreen span-12">Span 12</div>
+      <div class="section coral span-6">Span 6</div>
+      <div class="section skyblue span-4">Span 4</div>
+      <div class="section gold span-2">Span 2</div>
+    </div>
+  </div>
+
+  <h1>07. RAM (Repeat, Auto, Minmax)</h1>
+  <div class="ex7">
+    <div class="parent">
+      <div class="box pink">1</div>
+      <div class="box plum">2</div>
+      <div class="box skyblue">3</div>
+      <div class="box lightgreen">4</div>
+    </div>
+  </div>
+
+  <h1>08. Line Up</h1>
+  <div class="ex8">
+    <div class="parent">
+      <div class="card gold">
+        <h3>Title - Card 1</h3>
+        <p contenteditable>
+          Medium length description with a few more words here.
+        </p>
+        <div class="visual pink"></div>
+      </div>
+      <div class="card gold">
+        <h3>Title - Card 2</h3>
+        <p contenteditable>
+          Long Description. Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit.
+        </p>
+        <div class="visual skyblue"></div>
+      </div>
+      <div class="card gold">
+        <h3>Title - Card 3</h3>
+        <p contenteditable>Short Description.</p>
+        <div class="visual lightgreen"></div>
+      </div>
+    </div>
+  </div>
+
+  <h1>09. Clamp</h1>
+  <div class="ex9">
+    <div class="parent">
+      <div class="card plum">
+        <h1>Title Here</h1>
+        <div class="visual gold"></div>
+        <p contenteditable="">
+          Descriptive Text. Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit. Sed est error repellat veritatis.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <h1>10. Aspect Ratio</h1>
+  <div class="ex10">
+    <div class="parent">
+      <div class="card skyblue">
+        <h1>Video Title</h1>
+        <div class="visual lightgreen"></div>
+        <p>Descriptive text for aspect ratio card demo.</p>
       </div>
     </div>
   </div>
